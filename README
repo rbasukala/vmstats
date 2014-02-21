@@ -1,0 +1,26 @@
+AUTHOR: RAMESH BASUKALA <basukalarameshATgmailDOTcom>
+DATE: 02.18.2014 
+This script queries the vcenter server and send report on email with following properties:
+  - Name
+  - VM Status
+  - Producation Status
+  - Primary Sysadmin
+  - OS
+  - Memory (MB)
+  - #CPU
+  - VM Version
+  - VM Tool Status
+  - VMX
+  - Network
+  - Disks
+  - Snapshots
+  - Notes
+
+VMWare Tools must be running on VM for this script to work.
+
+USAGE: 
+     $python <scriptname> [vmhost_list_file] 
+        Default: vmhost_list_file: vms.txt
+
+     $python getVMStats.py myhosts.txt
+ 
