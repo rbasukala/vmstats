@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 
 server = VIServer()
 
-DEBUG = 0
+DEBUG = 0 # DEBUG = 1 for debugging 
 
 hostname = socket.gethostname()
 email_from = "no-reply@"+hostname
